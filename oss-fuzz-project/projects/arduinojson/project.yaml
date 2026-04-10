@@ -1,0 +1,8 @@
+homepage: "https://arduinojson.org"
+language: c++
+primary_contact: "soroushsaririan"
+fuzzing_engines:
+  - libfuzzer
+sanitizers:
+  - address
+  - undefined
